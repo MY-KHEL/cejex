@@ -1,0 +1,46 @@
+:root{
+    --brown:  rgb(110, 70, 9);
+    --forecolor:blanchedalmond;
+}
+
+.navbar{
+    background-color: var(--brown);
+}
+.nav-link{
+    font-size: large;
+}
+header{
+    background-image: url('../images/background.jpg');
+    background-size: cover;
+}
+#home{
+  
+}
+.heading-text{
+    background-color: var(--brown);
+    color:var(--forecolor) ;
+
+}
+.heading-text2{
+    font-size: 1.9 rem;
+}
+.section{
+    background-color: var(--forecolor);
+}
+.bgcolor{
+    background-color: var(--brown);
+}
+.foretext{
+    color: var(--brown);
+}
+.card:hover{
+    box-shadow: 1px 1px 3px 3px rgba(0, 0, 0, 0.4);
+}
+.subbtn{
+    color: var(--forecolor);
+}
+@media screen and (max-width:300){
+    .heading-text2{
+        font-size: 3rem;
+    }
+}
