@@ -3,11 +3,17 @@
     --forecolor:blanchedalmond;
 }
 
-.navbar{
+#navbar{
     background-color: var(--brown);
+    
+}
+.links{
+    color: var(--brown);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .nav-link{
     font-size: large;
+ 
 }
 header{
     background-image: url('../images/background.jpg');
@@ -35,12 +41,24 @@ header{
 }
 .card:hover{
     box-shadow: 1px 1px 3px 3px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
 }
 .subbtn{
     color: var(--forecolor);
 }
-@media screen and (max-width:300){
+a{
+    cursor: pointer;
+}
+@media screen and (max-width:460px){
     .heading-text2{
-        font-size: 3rem;
+        font-size: 2rem;
+    }}
+    @media screen and (max-width:767px){
+    .heading-text{
+        color: var(--forecolor);
+
+        background-color: rgba(109, 67, 3, 0.774);
+      
+    
     }
 }
